@@ -1,0 +1,13 @@
+name: cs7643-project
+channels:
+- conda-forge
+- pytorch
+dependencies:
+- pip
+- pytorch
+- cudatoolkit=11.1
+- pandas
+- tqdm
+- pip:
+  - transformers
+  - laserembeddings

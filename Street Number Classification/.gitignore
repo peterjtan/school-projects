@@ -1,0 +1,7 @@
+__pycache__
+
+# Ignore dataset folders since they can be downloaded during runtime
+*_dataset*
+*.pt
+
+*.docx
